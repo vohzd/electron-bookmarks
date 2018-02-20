@@ -1,0 +1,41 @@
+{
+  "name": "electron-bookmarks",
+  "version": "1.0.0",
+  "description": "an electron app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --colors --progress",
+    "start": "electron src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/electron-bookmarks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vohzd/electron-bookmarks/issues"
+  },
+  "homepage": "https://github.com/vohzd/electron-bookmarks#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "firebase": "^4.9.1",
+    "jquery": "^3.3.1",
+    "save-dev": "^2.0.0",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^0.28.9",
+    "electron-prebuilt": "^1.4.13",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^14.1.1",
+    "vue-style-loader": "^3.1.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
